@@ -8,7 +8,7 @@ var originalRequest;
 var jsonBodyResp;
 var boletoResponse;
 
- PORT = 8000;
+//PORT = 8000;
  
 // defines request handler function and prints request data
 function handleRequest(request, response) {
