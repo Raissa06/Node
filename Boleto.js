@@ -8,7 +8,7 @@ var originalRequest;
 var jsonBodyResp;
 var boletoResponse;
 
-//PORT = 8000;
+PORT = 3000;
  
 // defines request handler function and prints request data
 function handleRequest(request, response) {
@@ -152,5 +152,5 @@ var server = http.createServer(handleRequest);
 	// starts server
 	server.listen(PORT, function () {
 	// callback triggered when server is sucessfully listening.
-	console.log("Server listening on: http://localhost:%s", PORT);
+	console.log("Server listening on Cloud");
 })
