@@ -8,8 +8,8 @@ var originalRequest;
 var jsonBodyResp;
 var boletoResponse;
 
-PORT = 3000;
- 
+PORT = process.env.PORT || 3000;
+
 // defines request handler function and prints request data
 function handleRequest(request, response) {
 	// response.end('It works! Requested url was: ' + request.url);
